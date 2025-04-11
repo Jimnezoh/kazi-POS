@@ -1,9 +1,11 @@
 import React from "react";
+import Footer from "./footer";
 
 const App = () => {
   return (
-    <div className="flex flex-col md:flex-row md:w-full  bg-[#FEE0DA] min-h-[100vh]">
-      <div className=" mt-[70px] md:mt-[155px] mx-[30px] md:mx[100px] lg:mx[150px] xl:mx-[175px] mb-[50px] md:mb-[183px] md:w-[50vw] xl:w-[421px]">
+    <div>
+      <div className="flex flex-col md:flex-row md:w-full  bg-[#FEE0DA] min-h-[100vh]">
+      <div className=" mt-[70px] md:mt-[155px] mx-[30px] md:mx[100px] lg:mx[150px] xl:mx-[175px] mb-[50px] md:mb-[183px] md:w-[50vw] xl:w-[421px] 2xl:w-full">
         <div className="text-[#D80000] mb-[50px] md:mb-[91px] text-[30px] sm:text-[40px] md:text-[50px] lg:text-[70px] xl:text-[96px] leading-[120%] font-inter font-semibold">
           <h1>Our locations</h1>
         </div>
@@ -52,7 +54,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className=" gap-[10px] py-[65px] px-[30px] md:px-[50px] w-full md:w-[50vw] xl:w-[678px] bg-[#FFFFFF] min-h-screen ">
+      <div className=" gap-[10px] py-[65px] px-[30px] md:px-[50px] w-full md:w-[50vw] xl:w-[678px] 2xl:w-full bg-[#FFFFFF] min-h-screen ">
         <form className=" lg:mt-[103.5px]">
           <h1 className=" w-full gap-[41px] text-[#7F0808] font-medium font-inter leading-[120%] text-[32px] lg:text-[40px]">
             Talk to our Experts
@@ -131,6 +133,8 @@ const App = () => {
           </div>
         </form>
       </div>
+    </div>
+      <Footer />
     </div>
   );
 };
