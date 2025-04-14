@@ -3,12 +3,12 @@ import PricingCard from "../components/PricingCard";
 
 function Pricing() {
   return (
-    <div className="bg-[#FFFFFF] pb-[120px]">
-      <div className=" mx-[312px] mb-[70px] pt-[70px] ">
-        <div className="text-[48px] text-[#540A06] font-semibold font-inter leading-[120%] mx-auto text-center ">
+    <div className="bg-[#FFFFFF] pb-[80px]  md:pb-[120px]  px-[30px]">
+      <div className="   mb-[40px] md:mb-[70px] pt-[40px] lg:pt-[70px] justify-between text-center w-full ">
+        <div className=" text-[32px] lg:text-[38px] xl:text-[48px] text-[#540A06] font-semibold font-inter leading-[120%] md:mx-auto text-center text-nowrap">
           <p >Affordable Pricing</p>
         </div>
-        <div className=" flex text-center items-center mx-auto w-[229px] gap-[14px] mt-[40px]">
+        <div className=" flex text-center items-center md:mx-auto md:w-[229px] gap-[14px]  mt-[20px] md:mt-[40px] justify-center">
           <div className="font-medium text-[20px] leading-[120%] text-[#540A06] ">
             <p>Monthly</p>
           </div>
@@ -33,7 +33,7 @@ function Pricing() {
   
     {/* cards */}
 
-      <div className="flex mx-[64px] ">
+      <div className="flex xl:mx-[30px]  flex-col md:flex-row justify-between gap-[20px]  md:flex-wrap lg:flex-row">
         <PricingCard
           title="Basic Plan"
           description="Best for growing businesses"

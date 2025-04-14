@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function PricingCard({
   title,
@@ -8,31 +8,41 @@ function PricingCard({
   features,
   className = "",
   fill,
-  bgClass="",
+  bgClass = "",
 }) {
   return (
-    <div className={`w-[409px] shadow shadow-md shadow-[#0057B840] mx-[33px] px-[30px] pt-[30px] rounded-[20px] ${className}`}  >
+    <div
+      className={`
+    w-full lg:w-[370px] xl:w-[26.7vw] shadow shadow-md shadow-[#0057B840]  px-[30px]  pt-[30px rounded-[20px] ${className} `}
+    >
       <div>
         <div>
-          <div className='font-semibold text-[24px] leading-[120%] mb-[18px]'>
-            < p>{title}</p>
+          <div className="font-semibold text-[24px] leading-[120%] mb-[18px]">
+            <p>{title}</p>
           </div>
-          <div className='font-inter text-[16px] '>
+          <div className="font-inter text-[16px]">
             <p>{description}</p>
           </div>
         </div>
-        <div className='text-nowrap font-inter font-bold text-[32px] mt-[27px]'>
+        <div className="text-nowrap font-inter font-bold text-[32px] mt-[27px]">
           <p>Ksh {price}/month</p>
         </div>
       </div>
 
-      <div className={`${bgClass} my-[29px] py-[15px]  text-center text-nowrap rounded-[10px]`}>
-          <a  href={buttonUrl}  >Get Started</a>
+      <div
+        className={`
+      ${bgClass} 
+      my-[29px] py-[15px] 
+      text-center text-nowrap 
+      rounded-[10px]
+    `}
+      >
+        <a href={buttonUrl}>Get Started</a>
       </div>
 
-      <div className='font-inter text-[16px] leading-[120%] '>
+      <div className="font-inter text-[16px] leading-[120%]">
         {features?.map((feature, index) => (
-          <div key={index} className='flex gap-[10px] my-[27px]'>
+          <div key={index} className="flex gap-[10px] my-[27px]">
             <svg
               width="20"
               height="20"
