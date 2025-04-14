@@ -1,10 +1,12 @@
 import React from "react";
 import Footer from "./footer";
 import Pricing from "./Pricing";
+import Features from "./features";
 
 const App = () => {
   return (
     <div>
+      < Features/>
       < Pricing />
       
       <div className="flex flex-col md:flex-row md:w-full  bg-[#FEE0DA] min-h-[100vh]">
