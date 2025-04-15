@@ -2,10 +2,12 @@ import React from "react";
 import Footer from "./footer";
 import Pricing from "./Pricing";
 import Features from "./features";
+import FeaturesTwo from "./FeaturesTwo";
 
 const App = () => {
   return (
     <div>
+      <FeaturesTwo/>
       < Features/>
       < Pricing />
       
