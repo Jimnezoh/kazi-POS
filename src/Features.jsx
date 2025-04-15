@@ -3,7 +3,7 @@ import FeaturesCard from "../components/FeaturesCard";
 
 function Features() {
   return (
-    <div className="bg-[#FFFFFF] pt-[60px] md:pt-[162px] pb-[60px] px-[30px] md:px-[61px] md:w-full  ">
+    <div className="bg-[#FFFFFF] pt-[60px] xl:pt-[100px] 2xl:pt-[162px] pb-[60px] px-[30px] md:px-[61px] md:w-full  ">
       <div className=" mb-[50px] md:mb-[86px] text-[#D80000] text-center leading-[120%] font-inter font-semibold text-[32px] md:text-[64px] ">
         <p>Key Benefits</p>
       </div>

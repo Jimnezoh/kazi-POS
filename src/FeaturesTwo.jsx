@@ -4,7 +4,7 @@ import FeaturesTwoCardTwo from "../components/FeaturesTwoCardTwo";
 
 function FeaturesTwo() {
   return (
-    <div className="bg-[#FFFFFF] pt-[40px]  lg:pb-[120px] px-[30px] md:px-[64px] ">
+    <div className="bg-[#FFFFFF] pt-[40px]  lg:pb-[40px] 2xl:pb-[70px] px-[30px] md:px-[64px] ">
       <div className="w-full px-3 sm:px-6 md:px-8 mb-[30px] md:mb-[56px]">
         <div className="gap-[10px] md:pt-[40px] pb-[24px] md:pb-[56px]  text-center font-inter font-semibold text-[36px] sm:text-[42px] md:text-[48px] leading-[120%] text-[#D80000]">
           <p>Learn more about KaziPOS's features</p>

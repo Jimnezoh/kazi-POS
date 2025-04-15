@@ -4,14 +4,17 @@ import Pricing from "./Pricing";
 import Features from "./features";
 import FeaturesTwo from "./FeaturesTwo";
 import FeaturesThree from "./FeaturesThree";
+import Testimonials from "./Testimonials";
 
 const App = () => {
   return (
     <div>
+      
       <FeaturesThree />
       <FeaturesTwo/>
       < Features/>
       < Pricing />
+      <Testimonials />
       
       <div className="flex flex-col md:flex-row md:w-full  bg-[#FEE0DA] min-h-[100vh]">
       <div className=" mt-[70px] md:mt-[155px] mx-[30px] md:mx[100px] lg:mx[150px] xl:mx-[175px] mb-[50px] md:mb-[183px] md:w-[50vw] xl:w-[421px] 2xl:w-full">
