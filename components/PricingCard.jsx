@@ -13,7 +13,7 @@ function PricingCard({
   return (
     <div
       className={`
-    w-full lg:w-[370px] xl:w-[26.7vw] shadow shadow-md shadow-[#0057B840]  px-[30px]  pt-[30px rounded-[20px] ${className} `}
+    w-full lg:w-[370px] xl:w-[26.7vw] shadow shadow-md shadow-[#0057B840]  px-[20px]  pt-[30px rounded-[20px] ${className} `}
     >
       <div>
         <div>

@@ -3,10 +3,12 @@ import Footer from "./footer";
 import Pricing from "./Pricing";
 import Features from "./features";
 import FeaturesTwo from "./FeaturesTwo";
+import FeaturesThree from "./FeaturesThree";
 
 const App = () => {
   return (
     <div>
+      <FeaturesThree />
       <FeaturesTwo/>
       < Features/>
       < Pricing />

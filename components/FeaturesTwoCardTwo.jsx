@@ -2,7 +2,7 @@ import React from "react";
 
 function FeaturesTwoCardTwo({ image, title, description }) {
   return (
-    <div className="shadow-md shadow-[rgb(84,10,6)] rounded-[27px] p-[37px] lg:max-w-[41.2vw]  lg:h-[574px]">
+    <div className="shadow-md shadow-[rgb(84,10,6)] rounded-[27px] p-[20px] md:p-[37px] lg:max-w-[41.2vw]  lg:h-[574px]">
       <div className=" flex justify-center items-center   lg:max-h-[26vh] w-full h-full ">
         <img
           src={image}

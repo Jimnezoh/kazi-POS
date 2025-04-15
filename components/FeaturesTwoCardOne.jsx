@@ -13,7 +13,7 @@ function FeaturesTwoCardOne({
         isRight ? "lg:flex-row" : "lg:flex-row-reverse"
       } gap-[8px] md:gap-[10px] flex-col-reverse `}
     >
-      <div className="rounded-[25px] bg-[#D80000] py-[60px] px-[30px] md:px-[69px] w-full lg:w-[644px] h-[484px] 2xl:w-[950px]">
+      <div className="rounded-[25px] bg-[#D80000] py-[60px] px-[20px] md:px-[69px] w-full lg:w-[644px] h-[484px] 2xl:w-[950px]">
         <div className="text-[#FEE0DA] font-inter font-semibold text-[28px] xl:text-[48px]">
           {title}
         </div>
