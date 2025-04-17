@@ -3,7 +3,7 @@ import PricingCard from "../components/PricingCard";
 
 function Pricing() {
   return (
-    <div className="bg-[#FFFFFF] pb-[80px]  md:pb-[120px]  px-[30px]">
+    <div  className=" bg-[#FFFFFF] pb-[80px]  md:pb-[120px]  px-[30px]">
       <div className="   mb-[40px] md:mb-[70px] pt-[40px] lg:pt-[70px] justify-between text-center w-full ">
         <div className=" text-[32px] lg:text-[38px] xl:text-[48px] text-[#540A06] font-semibold font-inter leading-[120%] md:mx-auto text-center text-nowrap">
           <p >Affordable Pricing</p>

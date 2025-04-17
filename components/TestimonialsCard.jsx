@@ -15,7 +15,7 @@ function TestimonialsCard({
       </div>
       <div className='flex px-[20.5px] gap-[15px] w-[335px]'>
         <div className='w-[55px] h-[55px] '>
-            <img src={image} alt={title} className='rounded-[1px] rotation-[180]' />
+            <img src={image} alt={title} className='rounded-full ' />
         </div>
         <div>
             <div className='text-[18px] font-inter font-medium leading-[32px]'>{title}</div>
